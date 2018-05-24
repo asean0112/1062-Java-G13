@@ -1,19 +1,27 @@
 # 1062-Java-G13
-Test_manu: ¶À³Íµ¾        //´ú¸Õ¥Ø¿ý
-ManuFrame: ¶À³Íµ¾        //¥Ø¿ý«ö¶s(Start_Game¡BHelp¡BSetting)
-Read_Before_Game: ³¢¬ü­§ //Åª¥H«eªº¬ö¿ýÀÉ
-Help: ¶À³Íµ¾             //¤¶²Ð¹CÀ¸ª±ªk
-Setting: ³¢¬ü­§          //¶}Ãö­I´º­µ¼Ö¡B­µ®Ä
 
-Test_Game: ³¢¬ü­§        //´ú¸Õ¹CÀ¸
-GamePanel: ¦¶¯Âè°        //³s±µ¨ì¤U¤@Ãö¥d¡A­pºâ¤À¼Æ
-GameData: ³¯ªÛ¿o¡B³¢¬ü­§ //¦s©ñ©Ò¦³»Ý­nªº¹CÀ¸¸ê°T
-GameManu: ³¢¬ü­§         //·í«öesc®É­n¸õ¥Xªº¼È°±¤¶­±¡A¦³Àx¦sÀÉ®×¡B½Õ­µ¼Öªº¥\¯à
-Shape: ¦¶¯Âè°            //±±¨î­n¦L¥Xªº©Ò¦³¹Ï¤ù
-Map: ¦¶¯Âè°              //¦L¥X¦a¹Ï
-PacMan: ³¯ªÛ¿o           //µe¤pºëÆF
-Dot: ³¢¬ü­§              //µe©Ò¦³¥[¤Àªº¨§¤l
-BigDot: ¦¶¯Âè°           //½Æ»s¨§¤l(¦pªG³Ñ¤U¤@°¦¤pºëÆF¡A¥i¥Hªø¥X¥t¤@°¦¤pºëÆF)
-Bomb: ³¯ªÛ¿o             //µe¬µ¼u(¤pºëÆF¦Y¤F·|¦º±¼)
-Monster: ³¯ªÛ¿o          //µe©Çª«(·|°l¤pºëÆF)
+ç›®éŒ„
+-
+| ç›®éŒ„ |  |  |
+ -------- | :-----------  | :----------- 
+| Test_manu | é»ƒå‡±ç¿” | æ¸¬è©¦ç›®éŒ„ |
+| MenuFrame | é»ƒå‡±ç¿” | ç›®éŒ„æŒ‰éˆ•(Start_Gameã€Helpã€Setting) |
+| Read_Before_Game | éƒ­ç¾Žéƒ | è®€ä»¥å‰çš„ç´€éŒ„æª” |
+| Help | é»ƒå‡±ç¿” | ä»‹ç´¹éŠæˆ²çŽ©æ³• |
+| Setting | éƒ­ç¾Žéƒ | é–‹é—œèƒŒæ™¯éŸ³æ¨‚ã€éŸ³æ•ˆ |
 
+éŠæˆ²
+-
+| éŠæˆ² |  |  |
+ -------- | :-----------  | :----------- 
+| Test_Game | éƒ­ç¾Žéƒ | æ¸¬è©¦éŠæˆ² |
+| GamePanel | æœ±ç´”éš | é€£æŽ¥åˆ°ä¸‹ä¸€é—œå¡ï¼Œè¨ˆç®—åˆ†æ•¸ |
+| GameData | é™³èŠç©Žã€éƒ­ç¾Žéƒ | å­˜æ”¾æ‰€æœ‰éœ€è¦çš„éŠæˆ²è³‡è¨Š |
+| GameMenu | éƒ­ç¾Žéƒ | ç•¶æŒ‰escæ™‚è¦è·³å‡ºçš„æš«åœä»‹é¢ï¼Œæœ‰å„²å­˜æª”æ¡ˆã€èª¿éŸ³æ¨‚çš„åŠŸèƒ½ |
+| Shape | æœ±ç´”éš | æŽ§åˆ¶è¦å°å‡ºçš„æ‰€æœ‰åœ–ç‰‡ |
+| Map | æœ±ç´”éš | å°å‡ºåœ°åœ– |
+| PacMan | é™³èŠç©Ž | ç•«å°ç²¾éˆ |
+| Dot | éƒ­ç¾Žéƒ | ç•«æ‰€æœ‰åŠ åˆ†çš„è±†å­ |
+| BigDot | æœ±ç´”éš | è¤‡è£½è±†å­(å¦‚æžœå‰©ä¸‹ä¸€éš»å°ç²¾éˆï¼Œå¯ä»¥é•·å‡ºå¦ä¸€éš»å°ç²¾éˆ) |
+| Bomb | é™³èŠç©Ž | ç•«ç‚¸å½ˆ(å°ç²¾éˆåƒäº†æœƒæ­»æŽ‰) |
+| Monster | é™³èŠç©Ž | ç•«æ€ªç‰©(æœƒè¿½å°ç²¾éˆ) |
